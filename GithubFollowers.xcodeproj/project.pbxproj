@@ -72,23 +72,55 @@
 		EC4D0F0B2A115992002613D1 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				EC4D0F0C2A115992002613D1 /* AppDelegate.swift */,
-				EC4D0F0E2A115992002613D1 /* SceneDelegate.swift */,
-				EC4D0F242A11722D002613D1 /* GFButton.swift */,
-				EC4D0F262A117547002613D1 /* GFTextField.swift */,
+				EC4D0F392A13DC2A002613D1 /* Support */,
+				EC4D0F382A13DBCA002613D1 /* Extensions */,
+				EC4D0F372A13DB99002613D1 /* Custom Views */,
+				EC4D0F362A13DB65002613D1 /* Screens */,
 				EC4D0F152A115993002613D1 /* Assets.xcassets */,
 				EC4D0F172A115993002613D1 /* LaunchScreen.storyboard */,
 				EC4D0F1A2A115993002613D1 /* Info.plist */,
+			);
+			path = GithubFollowers;
+			sourceTree = "<group>";
+		};
+		EC4D0F362A13DB65002613D1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
 				EC4D0F202A115F88002613D1 /* SearchVC.swift */,
+				EC4D0F222A115F9C002613D1 /* FavoritesListVC.swift */,
+				EC4D0F282A123916002613D1 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EC4D0F372A13DB99002613D1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D0F262A117547002613D1 /* GFTextField.swift */,
+				EC4D0F242A11722D002613D1 /* GFButton.swift */,
 				EC4D0F2C2A128745002613D1 /* GFTitleLabel.swift */,
 				EC4D0F2E2A128899002613D1 /* GFBodyLabel.swift */,
 				EC4D0F322A12A0BF002613D1 /* GFAlertVC.swift */,
-				EC4D0F282A123916002613D1 /* FollowerListVC.swift */,
-				EC4D0F222A115F9C002613D1 /* FavoritesListVC.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		EC4D0F382A13DBCA002613D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				EC4D0F2A2A123FBD002613D1 /* String+Ext.swift */,
 				EC4D0F342A12AA47002613D1 /* UIViewController+Ext.swift */,
 			);
-			path = GithubFollowers;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC4D0F392A13DC2A002613D1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D0F0C2A115992002613D1 /* AppDelegate.swift */,
+				EC4D0F0E2A115992002613D1 /* SceneDelegate.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
