@@ -21,6 +21,9 @@
 		EC4D0F2F2A128899002613D1 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F2E2A128899002613D1 /* GFBodyLabel.swift */; };
 		EC4D0F332A12A0BF002613D1 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F322A12A0BF002613D1 /* GFAlertVC.swift */; };
 		EC4D0F352A12AA47002613D1 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F342A12AA47002613D1 /* UIViewController+Ext.swift */; };
+		EC4D0F3C2A13F5F0002613D1 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F3B2A13F5F0002613D1 /* Follower.swift */; };
+		EC4D0F3E2A13F729002613D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F3D2A13F729002613D1 /* User.swift */; };
+		EC4D0F412A1525E1002613D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F402A1525E1002613D1 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		EC4D0F2E2A128899002613D1 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		EC4D0F322A12A0BF002613D1 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		EC4D0F342A12AA47002613D1 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		EC4D0F3B2A13F5F0002613D1 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		EC4D0F3D2A13F729002613D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC4D0F402A1525E1002613D1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,8 @@
 		EC4D0F0B2A115992002613D1 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				EC4D0F3F2A1525CA002613D1 /* Managers */,
+				EC4D0F3A2A13F5E2002613D1 /* Model */,
 				EC4D0F392A13DC2A002613D1 /* Support */,
 				EC4D0F382A13DBCA002613D1 /* Extensions */,
 				EC4D0F372A13DB99002613D1 /* Custom Views */,
@@ -87,8 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				EC4D0F202A115F88002613D1 /* SearchVC.swift */,
-				EC4D0F222A115F9C002613D1 /* FavoritesListVC.swift */,
 				EC4D0F282A123916002613D1 /* FollowerListVC.swift */,
+				EC4D0F222A115F9C002613D1 /* FavoritesListVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -121,6 +129,23 @@
 				EC4D0F0E2A115992002613D1 /* SceneDelegate.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		EC4D0F3A2A13F5E2002613D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D0F3B2A13F5F0002613D1 /* Follower.swift */,
+				EC4D0F3D2A13F729002613D1 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC4D0F3F2A1525CA002613D1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D0F402A1525E1002613D1 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,10 +224,13 @@
 				EC4D0F252A11722D002613D1 /* GFButton.swift in Sources */,
 				EC4D0F212A115F88002613D1 /* SearchVC.swift in Sources */,
 				EC4D0F292A123916002613D1 /* FollowerListVC.swift in Sources */,
+				EC4D0F3E2A13F729002613D1 /* User.swift in Sources */,
 				EC4D0F332A12A0BF002613D1 /* GFAlertVC.swift in Sources */,
+				EC4D0F3C2A13F5F0002613D1 /* Follower.swift in Sources */,
 				EC4D0F0D2A115992002613D1 /* AppDelegate.swift in Sources */,
 				EC4D0F2D2A128745002613D1 /* GFTitleLabel.swift in Sources */,
 				EC4D0F2B2A123FBD002613D1 /* String+Ext.swift in Sources */,
+				EC4D0F412A1525E1002613D1 /* NetworkManager.swift in Sources */,
 				EC4D0F0F2A115992002613D1 /* SceneDelegate.swift in Sources */,
 				EC4D0F2F2A128899002613D1 /* GFBodyLabel.swift in Sources */,
 			);
