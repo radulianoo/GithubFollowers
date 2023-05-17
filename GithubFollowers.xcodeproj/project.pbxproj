@@ -24,6 +24,7 @@
 		EC4D0F3C2A13F5F0002613D1 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F3B2A13F5F0002613D1 /* Follower.swift */; };
 		EC4D0F3E2A13F729002613D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F3D2A13F729002613D1 /* User.swift */; };
 		EC4D0F412A1525E1002613D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F402A1525E1002613D1 /* NetworkManager.swift */; };
+		EC4D0F442A1547E2002613D1 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0F432A1547E2002613D1 /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		EC4D0F3B2A13F5F0002613D1 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		EC4D0F3D2A13F729002613D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EC4D0F402A1525E1002613D1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EC4D0F432A1547E2002613D1 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		EC4D0F0B2A115992002613D1 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				EC4D0F422A1547D2002613D1 /* Utilities */,
 				EC4D0F3F2A1525CA002613D1 /* Managers */,
 				EC4D0F3A2A13F5E2002613D1 /* Model */,
 				EC4D0F392A13DC2A002613D1 /* Support */,
@@ -146,6 +149,14 @@
 				EC4D0F402A1525E1002613D1 /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		EC4D0F422A1547D2002613D1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D0F432A1547E2002613D1 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 				EC4D0F0D2A115992002613D1 /* AppDelegate.swift in Sources */,
 				EC4D0F2D2A128745002613D1 /* GFTitleLabel.swift in Sources */,
 				EC4D0F2B2A123FBD002613D1 /* String+Ext.swift in Sources */,
+				EC4D0F442A1547E2002613D1 /* ErrorMessage.swift in Sources */,
 				EC4D0F412A1525E1002613D1 /* NetworkManager.swift in Sources */,
 				EC4D0F0F2A115992002613D1 /* SceneDelegate.swift in Sources */,
 				EC4D0F2F2A128899002613D1 /* GFBodyLabel.swift in Sources */,
